@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A Few of My Favorites on Kieran Derfus</title>
+    <link>../build/books/</link>
+    <description>Recent content in A Few of My Favorites on Kieran Derfus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Apr 2019 22:32:06 -0400</lastBuildDate>
+    
+	<atom:link href="../build/books/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>You Can Be A Stock Market Genius</title>
+      <link>../build/books/book-01/</link>
+      <pubDate>Mon, 08 Apr 2019 22:32:06 -0400</pubDate>
+      
+      <guid>../build/books/book-01/</guid>
+      <description>As a research analyst for the Deacon Fund, my investment strategy was heavily weighted in value stocks. When exploring the return differences of value and growth stocks in my quantitative finance class, I was surprised to find that the returns on value stocks tended to outpace that of growth stocks. It was not until I read Joel Greenblatt that I understood the philosophy behind investing in value stocks for huge returns.</description>
+    </item>
+    
+    <item>
+      <title>Zen and the Art of Motorcycle Maintenance</title>
+      <link>../build/books/book-02/</link>
+      <pubDate>Mon, 08 Apr 2019 22:32:06 -0400</pubDate>
+      
+      <guid>../build/books/book-02/</guid>
+      <description>In an effort to diversify my reading content, a peer recommended Zen and the Art of Motorcycle Maintenance by Robert M. Pirsig. The book is a look into the author&amp;rsquo;s values, as they arise from travels with family and friends. This cross-discipline perspective of his personal trip through middle America examines bits of memorable interactions with his son as well as a couple with which they travel. The analyses of moments educate in the philosophic realm and make connections with the reader on the topic of the human experience.</description>
+    </item>
+    
+  </channel>
+</rss>

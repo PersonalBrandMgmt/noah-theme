@@ -1,0 +1,128 @@
+{
+  "data": {
+    "getProfile": {
+      "username": "Kieran",
+      "first_name": "Kieran",
+      "last_name": "Derfus",
+      "articles": [
+        {
+          "title": "Uber / Lyft Off",
+          "caption": "2019 was a terrible year for IPOs",
+          "url": "https://google.com"
+        }
+      ],
+      "references": [
+        {
+          "content": "Kieran has been a great addition to the team.",
+          "author_name": "Fazir Manthodi",
+          "author_company": "EY",
+          "author_position": "Managing Director"
+        },
+        {
+          "content": "Kieran has been a great addition to the team.",
+          "author_name": "Ragav",
+          "author_company": "EY",
+          "author_position": "Senior 2"
+        }
+      ],
+      "leadership": [
+        {
+          "position": "President",
+          "organization": "Plead the 5th",
+          "id": "5076334e-40b8-45c7-96f9-7e6952972cc0",
+          "account_id": "dee652d3-30d5-460d-bea1-4e8df10101d7"
+        }
+      ],
+      "other": [
+        {
+          "id": "dea70429-5ba7-4521-b196-4142960d3ef4",
+          "content": "{\"certification\":\"Reactive Microservices\"}"
+        },
+        {
+          "id": "06676554-b773-462a-84e1-1e7a863fbddf",
+          "content": "{\"certification\":\"AWS Certified Cloud Practioner\"}"
+        }
+      ],
+      "intro": [
+        {
+          "content": "Hi, I'm Joey Bag O Donuts.",
+          "account_id": "dee652d3-30d5-460d-bea1-4e8df10101d7",
+          "id": "57704f70-c41b-4717-8dda-8da263be8bc6"
+        }
+      ],
+      "skills": [
+        {
+          "content": "Are Back",
+          "account_id": "dee652d3-30d5-460d-bea1-4e8df10101d7",
+          "id": "7c7a8843-a3ab-403b-ad1c-8c88fcae4aa9"
+        },
+        {
+          "content": "In Town",
+          "account_id": "dee652d3-30d5-460d-bea1-4e8df10101d7",
+          "id": "b1906786-49db-429c-ba40-4e31e6fd9a1b"
+        }
+      ],
+      "coursework": [
+        {
+          "id": "8569dfa0-8c8c-464b-ab69-de58ea5c7d9d",
+          "course_name": "Macro",
+          "account_id": "dee652d3-30d5-460d-bea1-4e8df10101d7"
+        }
+      ],
+      "contact": [
+        {
+          "email": "kieranderfus@gmail.com",
+          "phone": "2015721988",
+          "id": "b5d283ba-458c-4bab-afeb-9051c2f3655c"
+        }
+      ],
+      "posts": [
+        {
+          "title": "A Smart Man Once Said ...",
+          "caption": "Stay Golden, Ponyboy",
+          "markdown": "Me and Greg in Prague.\n",
+          "html": "<p>Me and Greg in Prague.</p>\n",
+          "date_published": "2019-11-15",
+          "image_url": "https://d2czw3op36f92o.cloudfront.net/kieranpaul-source/16722614_10206532771118488_3464355287299241309_o.jpg",
+          "series": "books"
+        },
+        {
+          "title": "Becoming by Michelle Obama",
+          "caption": "Incredible! Inspirational!",
+          "markdown": "Barry O ain't know what he got.\n",
+          "html": "<p>Barry O ain't know what he got.</p>\n",
+          "date_published": "2019-11-15",
+          "image_url": "https://d2czw3op36f92o.cloudfront.net/kieranpaul-source/michelle_obama_first_official_portrait_as_first_lady.jpg",
+          "series": "books"
+        },
+        {
+          "title": "Hello, World",
+          "caption": "The Classic",
+          "markdown": "Hey this **editor** rocks",
+          "html": "<p>Hey this <strong>editor</strong> rocks</p>",
+          "date_published": "2019-11-14",
+          "image_url": "https://d2czw3op36f92o.cloudfront.net/kieranpaul-source/26239946_10208836972562084_38590451627255280_n.jpg",
+          "series": "posts"
+        },
+        {
+          "title": "The Pup!",
+          "caption": "Heartbreaking, really cold.",
+          "markdown": "Sing us a song, piano man.\n",
+          "html": "<p>Sing us a song, piano man.</p>\n",
+          "date_published": "2019-11-15",
+          "image_url": "https://d2czw3op36f92o.cloudfront.net/kieranpaul-source/insta_pup.jpg",
+          "series": "experience"
+        },
+        {
+          "title": "All Quiet On The Western Front",
+          "caption": "Heartbreaking, really cold.",
+          "markdown": "Heartbreaking, ***really*** cold.\n",
+          "html": "<p>Heartbreaking, <strong><em>really</em></strong> cold.</p>\n",
+          "date_published": "2019-11-15",
+          "image_url": "https://d2czw3op36f92o.cloudfront.net/kieranpaul-source/42058892_10217531344461518_3363011726944501760_o.jpg",
+          "series": "books"
+        }
+      ]
+    }
+  }
+}

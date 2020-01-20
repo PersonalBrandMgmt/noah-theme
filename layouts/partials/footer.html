@@ -1,0 +1,78 @@
+<footer>
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-pb-sm">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <h2>Contact Me</h2>
+                            <p>Please feel free to reach out.</p>
+                            <p class="colorlib-social-icons">
+                                {{ range $.Site.Params.socials }}
+                                    {{ if eq .type "facebook" }}
+                                        <a href="{{ .url }}" target="_blank"><i class="icon-facebook4"></i></a>
+                                    {{ end }}
+                                    {{ if eq .type "linkedin" }}
+                                        <a href="{{ .url }}" target="_blank"><i class="icon-linkedin4"></i></a>
+                                    {{ end }}
+                                    {{ if eq .type "instagram" }}
+                                        <a href="{{ .url }}" target="_blank"><i class="icon-instagram"></i></a>
+                                    {{ end }}
+                                    {{ if eq .type "twitter" }}
+                                        <a href="{{ .url }}" target="_blank"><i class="icon-twitter"></i></a>
+                                    {{ end }}
+                                    {{ if eq .type "tumblr" }}
+                                        <a href="{{ .url }}" target="_blank"><i class="icon-tumblr"></i></a>
+                                    {{ end }}
+                                    {{ if eq .type "github" }}
+                                        <a href="{{ .url }}" target="_blank"><i class="icon-github"></i></a>
+                                    {{ end }}
+                                    {{ if eq .type "issuu" }}
+                                        <a href="{{ .url }}" target="_blank">issuu</i></a>
+                                    {{ end }}
+                                    {{ if eq .type "medium" }}
+                                        <a href="{{ .url }}" target="_blank"><i class="icon-medium"></i></a>
+                                    {{ end }}
+                                {{ end }}
+                            <!--<p><a href="#">{{ .Site.Params.Email }}</a></p>-->
+                            <!--<p class="colorlib-social-icons">-->
+                                <!--<a href="{{ .Site.Params.facebook }}" target="_blank"><i class="icon-facebook4"></i></a>-->
+                                <!--<a href="{{ .Site.Params.linkedin }}" target="_blank"><i class="icon-linkedin4"></i></a>-->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-pb-sm">
+                    <h2>Favorite Articles</h2>
+                    {{ range $.Site.Params.articles }}
+                    <div class="f-entry">
+                        <a href="{{ .url }}" target="_blank" class="featured-img" style="background-image: url(images/img-1.jpg);"></a>
+                        <div class="desc">
+                            <span>{{ .caption }}</span>
+                            <h3><a href="{{ .link }}" target="_blank">{{ .title }}</a></h3>
+                        </div>
+                    </div>
+                    {{end}}
+                </div>
+                <div class="col-md-4 col-pb-sm">
+                    <h2>Thought Leadership</h2>
+                    <p>Read a few of the articles I've contributed on Medium.</p>
+                    <div class="subscribe text-center">
+                        <div class="form-group">
+                            <a href="https://medium.com" target="_blank"><input type="submit" value="Subscribe" class="btn btn-primary btn-custom"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>
+                        &copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Content Advisory by <a href="https://personalbrandmgmt.com" target="_blank">Éirí, LLC</a> | Template by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

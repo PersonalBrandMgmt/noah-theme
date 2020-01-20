@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kieran Derfus</title>
+    <link>../build/</link>
+    <description>Recent content on Kieran Derfus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Apr 2019 22:32:09 -0400</lastBuildDate>
+    
+	<atom:link href="../build/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FMC Certifications</title>
+      <link>../build/posts/post-02/</link>
+      <pubDate>Mon, 08 Apr 2019 22:32:09 -0400</pubDate>
+      
+      <guid>../build/posts/post-02/</guid>
+      <description>In order to deepen my technical understanding of company finances, I took a financial model bootcamp with Adventis. In the course I learned to build fully circular, three-statement financial models from scratch and practiced the techniques and ideas beyond the bootcamp. I then completed both levels of certifications, showing that I have internalized the modeling techniques as well as concepts of accounting, corporate finance, intrinsic and relative valuation, and leveraged buyout transactions.</description>
+    </item>
+    
+    <item>
+      <title>The Deacon Fund</title>
+      <link>../build/posts/post-03/</link>
+      <pubDate>Mon, 08 Apr 2019 22:32:09 -0400</pubDate>
+      
+      <guid>../build/posts/post-03/</guid>
+      <description>The Deacon Fund, of all my extracurriculars, has been the most effective channel of keeping me current and engaged in markets and technology. On a daily basis, the group uses slack to have open conversations on interesting articles and business implications of recent news. Longer term projects include preparing stock proposals, pitching stocks to a panel, raising money for the fund, and following equity under coverage.</description>
+    </item>
+    
+    <item>
+      <title>Decision to Pursue the CFA</title>
+      <link>../build/posts/post-01/</link>
+      <pubDate>Mon, 08 Apr 2019 22:32:06 -0400</pubDate>
+      
+      <guid>../build/posts/post-01/</guid>
+      <description>I have decided to prepare for the CFA exam in December with the intention of becoming a member of CFA Institute in the long term. I believe the curriculum in my university courses this year and next will lend itself nicely to my success in the first CFA exam. Currently, I am undecided to pursuing a Masters degree and so starting the CFA program is the step I’m taking at the moment to prepare myself for work following next year.</description>
+    </item>
+    
+    <item>
+      <title>You Can Be A Stock Market Genius</title>
+      <link>../build/books/book-01/</link>
+      <pubDate>Mon, 08 Apr 2019 22:32:06 -0400</pubDate>
+      
+      <guid>../build/books/book-01/</guid>
+      <description>As a research analyst for the Deacon Fund, my investment strategy was heavily weighted in value stocks. When exploring the return differences of value and growth stocks in my quantitative finance class, I was surprised to find that the returns on value stocks tended to outpace that of growth stocks. It was not until I read Joel Greenblatt that I understood the philosophy behind investing in value stocks for huge returns.</description>
+    </item>
+    
+    <item>
+      <title>Zen and the Art of Motorcycle Maintenance</title>
+      <link>../build/books/book-02/</link>
+      <pubDate>Mon, 08 Apr 2019 22:32:06 -0400</pubDate>
+      
+      <guid>../build/books/book-02/</guid>
+      <description>In an effort to diversify my reading content, a peer recommended Zen and the Art of Motorcycle Maintenance by Robert M. Pirsig. The book is a look into the author&amp;rsquo;s values, as they arise from travels with family and friends. This cross-discipline perspective of his personal trip through middle America examines bits of memorable interactions with his son as well as a couple with which they travel. The analyses of moments educate in the philosophic realm and make connections with the reader on the topic of the human experience.</description>
+    </item>
+    
+  </channel>
+</rss>
