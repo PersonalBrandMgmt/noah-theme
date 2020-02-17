@@ -2,6 +2,9 @@ version: 0.1
 frontend:
   phases:
     # IMPORTANT - Please verify your build commands
+    preBuild:
+      commands:
+        - node preBuild.js
     build:
       commands:
         - hugo
