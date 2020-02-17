@@ -5,213 +5,40 @@
   "params": {
     "first_name": "Kieran",
     "last_name": "Derfus",
-    "email": "kderfus@gmail.com",
     "build": "development",
     "middleInitial": "_éi",
     "lastInitial": "rí_",
+    "email": "kieranderfus@gmail.com",
     "site_metadata": [
       {
-        "development_url": "http://development.kieranpaul.com.s3-website.us-east-2.amazonaws.com/",
-        "production_url": "https://www.kieranpaul.com/",
-        "destination_bucket": "development.kieranpaul.com",
-        "source_s3_bucket_path": "kieranpaul-source",
-        "theme": "noah"
+        "id": "c9020dc9-1687-4926-8fcc-cb3c93800787",
+        "development_url": "https://develop.d3q3k4oywgfjjc.amplifyapp.com",
+        "production_url": "https://master.d3q3k4oywgfjjc.amplifyapp.com",
+        "theme": "noah",
+        "appId": "d3q3k4oywgfjjc",
+        "repoUrl": "https://github.com/PersonalBrandMgmt/0e9584e9-2e1b-4c06-aaf2-c3307c45c573"
       }
     ],
     "assets": [
       {
-        "id": "a8c48a84-10cd-400f-a346-35a24e1f3b7c",
         "type": "primary",
-        "metadata": "Kieran Derfus",
-        "url": "https://d2czw3op36f92o.cloudfront.net/kieranpaul-source/42104900_10217531358101859_6475260220648980480_o.jpg"
+        "url": "a924d27f-3434-41b1-943d-9cb720f396a6",
+        "id": "8293f876-7335-4a7f-a782-4399a163a248"
       },
       {
-        "id": "ec1e699d-0fcc-4e96-939a-bcb6d2384770",
         "type": "secondary",
-        "metadata": "Kieran and Sydnee",
-        "url": "https://d2czw3op36f92o.cloudfront.net/kieranpaul-source/26239946_10208836972562084_38590451627255280_n.jpg"
-      },
-      {
-        "id": "c8881d1c-689c-4087-9f06-9a97de19bcff",
-        "type": "resume",
-        "metadata": "Kieran Derfus Resume",
-        "url": "https://d2czw3op36f92o.cloudfront.net/kieranpaul-source/Derfus%2C+Kieran.pdf"
+        "url": "e8a3d2f3-4a92-49a0-8ca2-dcc921211fe5",
+        "id": "5cf9f0ec-cd1c-4774-bc86-e6fbb89ff8b4"
       }
     ],
-    "coursework": [
-      {
-        "id": "a2d99e6f-a73d-4a28-9444-572c6c9ffd29",
-        "course_name": "Micro"
-      },
-      {
-        "id": "a2d99e6f-a73d-4a28-9444-572c6c9ffd29",
-        "course_name": "Intermediate Finance"
-      },
-      {
-        "id": "a2d99e6f-a73d-4a28-9444-572c6c9ffd29",
-        "course_name": "Management Accounting"
-      },
-      {
-        "id": "a2d99e6f-a73d-4a28-9444-572c6c9ffd29",
-        "course_name": "Organizational Behavior"
-      }
-    ],
-    "leadership": [
-      {
-        "position": "Chief Architect ('17-'19)",
-        "organization": "Deacs vs. Cancer",
-        "link": "https://team.curethekids.org/campaign/deacs-vs-cancer-2018/c174401",
-        "id": "5076334e-40b8-45c7-96f9-7e6952972cc0"
-      },
-      {
-        "position": "Active Member ('17-'19)",
-        "organization": "Alpha Sigma Phi Fraternity",
-        "link": "http://alphasigmaphi.org/",
-        "id": "5076334e-40b8-45c7-96f9-7e6952972cc0"
-      }
-    ],
-    "references": [
-      {
-        "content": "Kieran has been a great addition to the team.",
-        "author_name": "Fazir Manthodi",
-        "author_company": "EY",
-        "author_position": "Managing Director"
-      },
-      {
-        "content": "Kieran has been a great addition to the team.",
-        "author_name": "Ragav",
-        "author_company": "EY",
-        "author_position": "Senior 2"
-      }
-    ],
-    "skills": [
-      {
-        "content": "ReactJS",
-        "id": "11557536-6f43-445a-8b0a-f3bc8aeae78c"
-      },
-      {
-        "content": "Python",
-        "id": "11557536-6f43-445a-8b0a-f3bc8aeae78c"
-      },
-      {
-        "content": "Grasshopper",
-        "id": "11557536-6f43-445a-8b0a-f3bc8aeae78c"
-      },
-      {
-        "content": "InDesign",
-        "id": "11557536-6f43-445a-8b0a-f3bc8aeae78c"
-      }
-    ],
-    "experience": [
-      {
-        "id": "fe12a13f-c998-499f-b89e-f0695c4a9eaf",
-        "position": "Head of Product",
-        "company": "Eiri",
-        "link": "https://personalbrandmgmt.com",
-        "start_date": "2019-10-15",
-        "end_date": "2019-10-26"
-      },
-      {
-        "id": "fe12a13f-c998-499f-b89e-f0695c4a9eaf",
-        "position": "Senior",
-        "company": "EY",
-        "link": "https://consulting.ey.com",
-        "start_date": "2019-10-15",
-        "end_date": "2019-10-26"
-      },
-      {
-        "id": "fe12a13f-c998-499f-b89e-f0695c4a9eaf",
-        "position": "Founder",
-        "company": "Chune Supply",
-        "link": "https://chunesupply.com",
-        "start_date": "2019-10-15",
-        "end_date": "2019-10-26"
-      }
-    ],
-    "articles": [
-      {
-        "title": "Lyft Off? The First Ride Sharing IPO!",
-        "caption": "From Musings on Markets - Finance Professor Aswath Damodaran on Lyft pre-IPO",
-        "url": "http://aswathdamodaran.blogspot.com/2019/03/lyft-off-first-ride-sharing-ipo.html"
-      },
-      {
-        "title": "Yikes!",
-        "caption": "From Musings on Markets - Finance Professor Aswath Damodaran on Lyft pre-IPO",
-        "url": "http://aswathdamodaran.blogspot.com/2019/03/lyft-off-first-ride-sharing-ipo.html"
-      },
-      {
-        "title": "Yikes Again!",
-        "caption": "From Musings on Markets - Finance Professor Aswath Damodaran on Lyft pre-IPO",
-        "url": "http://aswathdamodaran.blogspot.com/2019/03/lyft-off-first-ride-sharing-ipo.html"
-      }
-    ],
-    "intro": [
-      {
-        "content": "This for my sister, that for my maple. It's not going the road I'd known as a child of God ... nor to become stable. (So what if I lose? I'm satisfied)",
-        "account_id": "dee652d3-30d5-460d-bea1-4e8df10101d7",
-        "id": "91a91833-ba96-44b8-ac4d-130717ef2dea"
-      }
-    ],
-    "socials": [
-      {
-        "id": "4300d501-e9f6-4fc7-9879-89c5501151a7",
-        "account_id": "dee652d3-30d5-460d-bea1-4e8df10101d7",
-        "type": "facebook",
-        "url": "https://www.facebook.com/kieran.derfus"
-      },
-      {
-        "id": "4d547911-b3d1-4604-84f7-c6093984f120",
-        "account_id": "dee652d3-30d5-460d-bea1-4e8df10101d7",
-        "type": "linkedin",
-        "url": "https://www.linkedin.com/in/kieranderfus"
-      }
-    ],
-    "posts": [
-      {
-        "title": "A Smart Man Once Said ...",
-        "caption": "Stay Golden, Ponyboy",
-        "markdown": "Me and Greg in Prague.\n",
-        "html": "<p>Me and Greg in Prague.</p>\n",
-        "date_published": "2019-11-15",
-        "image_url": "https://d2czw3op36f92o.cloudfront.net/kieranpaul-source/16722614_10206532771118488_3464355287299241309_o.jpg",
-        "series": "books"
-      },
-      {
-        "title": "Becoming by Michelle Obama",
-        "caption": "Incredible! Inspirational!",
-        "markdown": "Barry O ain't know what he got.\n",
-        "html": "<p>Barry O ain't know what he got.</p>\n",
-        "date_published": "2019-11-15",
-        "image_url": "https://d2czw3op36f92o.cloudfront.net/kieranpaul-source/michelle_obama_first_official_portrait_as_first_lady.jpg",
-        "series": "books"
-      },
-      {
-        "title": "Hello, World",
-        "caption": "The Classic",
-        "markdown": "Hey this **editor** rocks",
-        "html": "<p>Hey this <strong>editor</strong> rocks</p>",
-        "date_published": "2019-11-14",
-        "image_url": "https://d2czw3op36f92o.cloudfront.net/kieranpaul-source/26239946_10208836972562084_38590451627255280_n.jpg",
-        "series": "posts"
-      },
-      {
-        "title": "The Pup!",
-        "caption": "Heartbreaking, really cold.",
-        "markdown": "Sing us a song, piano man.\n",
-        "html": "<p>Sing us a song, piano man.</p>\n",
-        "date_published": "2019-11-15",
-        "image_url": "https://d2czw3op36f92o.cloudfront.net/kieranpaul-source/insta_pup.jpg",
-        "series": "experience"
-      },
-      {
-        "title": "All Quiet On The Western Front",
-        "caption": "Heartbreaking, really cold.",
-        "markdown": "Heartbreaking, ***really*** cold.\n",
-        "html": "<p>Heartbreaking, <strong><em>really</em></strong> cold.</p>\n",
-        "date_published": "2019-11-15",
-        "image_url": "https://d2czw3op36f92o.cloudfront.net/kieranpaul-source/42058892_10217531344461518_3363011726944501760_o.jpg",
-        "series": "books"
-      }
-    ]
+    "coursework": [],
+    "leadership": [],
+    "references": [],
+    "skills": [],
+    "experience": [],
+    "articles": [],
+    "intro": [],
+    "socials": [],
+    "posts": []
   }
 }
