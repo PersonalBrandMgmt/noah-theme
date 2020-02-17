@@ -2,6 +2,10 @@
 <html>
 {{ partial "header.html" . }}
 <body>
+
+<!-- get-cdn-url JS (Do not remove) -->
+<script type="text/javascript" src="js/get-cdn-url.js"></script>
+
 <div id="colorlib-page">
     <header>
         <div class="container">
@@ -20,16 +24,19 @@
                 <h2 class="bold">About</h2>
             </div>
             <div class="row">
-                <div class="col-md-5 animate-box">
-                    <div>
-                        <div class="item">
-                            {{ range $.Site.Params.assets }}
-                                {{ if eq .type "primary" }}
-                                    <img class="img-responsive about-img" src="{{ .url }}" alt="{{ .metadata }}">
-                                {{ end }}
-                            {{ end }}
-                        </div>
+              <div class="col-md-5 animate-box">
+                  <div>
+                    <div class="item">
+                      {{ range $.Site.Params.assets }}
+                        {{ if eq .type "primary" }}
+                            <img id="primaryImage" class="img-responsive about-img" src="{{ .url }}" alt="{{ .metadata }}">
+                            <script type="text/javascript">
+                              MYLIBRARY.getCdnUrl("primaryImage", "{{ .url }}")
+                            </script>
+                          {{ end }}
+                      {{ end }}
                     </div>
+                  </div>
                 </div>
                 <div class="col-md-6 col-md-push-1 animate-box">
                     <div class="about-desc">
@@ -156,7 +163,10 @@
                         </div>
                         {{ range $.Site.Params.assets }}
                             {{ if eq .type "secondary" }}
-                                <div class="one-forth services-img" style="background-image: url({{ .url }});">
+                              <img id="secondaryImage" class="one-forth services-img" src="" alt="{{ .metadata }}">
+                              <script type="text/javascript">
+                                MYLIBRARY.getCdnUrl("secondaryImage", "{{ .url }}")
+                              </script>
                             {{ end }}
                         {{ end }}
                         </div>
