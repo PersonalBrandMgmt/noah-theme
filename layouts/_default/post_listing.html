@@ -1,16 +1,16 @@
 <div class="item">
     <div class="col-md-12">
         <div class="article">
-            <a href="{{ .Site.Params.styleBaseURL }}{{ .URL }}" class="blog-img">
-                <img class="img-responsive" src="images/posts/{{ .Params.Image }}" alt="">
+            <a href="{{ .URL }}" class="blog-img">
+                <img class="img-responsive" src="{{ .Params.Image }}" alt="">
                 <div class="overlay"></div>
                 <div class="link">
                     <span class="read">Read more</span>
                 </div>
             </a>
             <div class="desc">
-                <span class="meta">{{ .Params.headerDate }}</span>
-                <h2><a href="{{ .Site.Params.styleBaseURL }}{{ .URL }}">{{ .Title }}</a></h2>
+                <span class="meta">{{ dateFormat "Monday, Jan 2, 2006" .Params.date }}</span>
+                <h2><a href="{{ .URL }}">{{ .Title }}</a></h2>
                 <p>{{ .Params.description }}</p>
             </div>
         </div>

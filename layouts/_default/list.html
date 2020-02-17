@@ -55,28 +55,28 @@
                             <p class="colorlib-social-icons">
                             {{ range $.Site.Params.socials }}
                                 {{ if eq .type "facebook" }}
-                                <a href="{{ .url }}" target="_blank"><i class="icon-facebook4"></i></a>
+                                  <a href="{{ .url }}" target="_blank"><i class="icon-facebook4"></i></a>
                                 {{ end }}
                                 {{ if eq .type "linkedin" }}
-                                <a href="{{ .url }}" target="_blank"><i class="icon-linkedin4"></i></a>
+                                  <a href="{{ .url }}" target="_blank"><i class="icon-linkedin4"></i></a>
                                 {{ end }}
                                 {{ if eq .type "instagram" }}
-                                <a href="{{ .url }}" target="_blank"><i class="icon-instagram"></i></a>
+                                  <a href="{{ .url }}" target="_blank"><i class="icon-instagram"></i></a>
                                 {{ end }}
                                 {{ if eq .type "twitter" }}
-                                <a href="{{ .url }}" target="_blank"><i class="icon-twitter"></i></a>
+                                  <a href="{{ .url }}" target="_blank"><i class="icon-twitter"></i></a>
                                 {{ end }}
                                 {{ if eq .type "tumblr" }}
-                                <a href="{{ .url }}" target="_blank"><i class="icon-tumblr"></i></a>
+                                  <a href="{{ .url }}" target="_blank"><i class="icon-tumblr"></i></a>
                                 {{ end }}
                                 {{ if eq .type "github" }}
-                                <a href="{{ .url }}" target="_blank"><i class="icon-github"></i></a>
+                                  <a href="{{ .url }}" target="_blank"><i class="icon-github"></i></a>
                                 {{ end }}
                                 {{ if eq .type "issuu" }}
-                                <a href="{{ .url }}" target="_blank">issuu</i></a>
+                                  <a href="{{ .url }}" target="_blank">issuu</i></a>
                                 {{ end }}
                                 {{ if eq .type "medium" }}
-                                <a href="{{ .url }}" target="_blank"><i class="icon-medium"></i></a>
+                                  <a href="{{ .url }}" target="_blank"><i class="icon-medium"></i></a>
                                 {{ end }}
                             {{ end }}
                             </p>
@@ -102,7 +102,6 @@
                         <div class="one-third">
                             <div class="row">
                                 <div class="col-md-12 col-md-offset-0 animate-box intro-heading">
-                                    <span>My Resume</span>
                                     <h2>Skills and Accomplishments</h2>
                                     {{ range $.Site.Params.assets }}
                                         {{ if eq .type "resume" }}
@@ -110,64 +109,100 @@
                                         {{ end }}
                                     {{ end }}
                                 </div>
-                            </div>
-                            <div class="row">
                                 <div class="col-md-12">
                                     <div class="rotate">
                                         <h2 class="heading">Resume</h2>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="services animate-box">
-                                        <h3>1 - Professional</h3>
-                                        <ul>
-                                            {{ range $.Site.Params.experience }}
-                                                <li>{{ .position }} ('18-'19), <a href="{{ .link }}" target="_blank">{{ .company }}</a></li>
-                                            {{ end }}
-                                            <!--<li>{{ .Site.Params.professional_1 }},-->
-                                                <!--<a href="{{ .Site.Params.professional_1_link }}" target="_blank">{{ .Site.Params.professional_1_link_word }}</a></li>-->
-                                            <!--<li>{{ .Site.Params.professional_2 }},-->
-                                                <!--<a href="{{ .Site.Params.professional_2_link }}" target="_blank">{{ .Site.Params.professional_2_link_word }}</a></li>-->
-                                        </ul>
+                                  {{ if $.Site.Params.experience }}
+                                  <div class="services animate-box">
+                                    <div>
+                                      <h3>Professional</h3>
                                     </div>
-                                    <div class="services animate-box">
-                                        <h3>2 - Coursework</h3>
-                                        <ul>
-                                            {{ range $.Site.Params.coursework }}
-                                                    <li>{{ .course_name }}</li>
-                                            {{end}}
-                                        </ul>
-                                    </div>
+                                    <ul>
+                                      {{ range $.Site.Params.experience }}
+                                      <li>{{ .position }} ('{{ substr .start_date 2 -3 }}-'{{ substr .end_date 2 -3 }}),
+                                        <a href="{{ .link }}" target="_blank">{{ .company }}</a></li>
+                                      {{ end }}
+                                    </ul>
+                                  </div>
+                                  {{ end }}
+                                  {{ if $.Site.Params.coursework }}
+                                  <div class="services animate-box">
+                                    <h3>Coursework</h3>
+                                    <ul>
+                                      {{ range $.Site.Params.coursework }}
+                                      <li>{{ .course_name }}</li>
+                                      {{end}}
+                                    </ul>
+                                  </div>
+                                  {{ end }}
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="services animate-box">
-                                        <h3>3 - Leadership</h3>
-                                        <ul>
-                                            {{ range $.Site.Params.leadership }}
-                                                    <li>{{ .position }},
-                                                        <a href="{{ .link }}" target="_blank">{{ .organization }}</a>
-                                                    </li>
-                                            {{end}}
-                                        </ul>
-                                    </div>
-                                    <div class="services animate-box">
-                                        <h3>4 - Skills</h3>
-                                        <ul>
-                                            {{ range $.Site.Params.skills }}
-                                            <li>{{ .content }}</li>
-                                            {{end}}
-                                        </ul>
-                                    </div>
+                                  {{ if $.Site.Params.leadership }}
+                                  <div class="services animate-box">
+                                    <h3>Leadership</h3>
+                                    <ul>
+                                      {{ range $.Site.Params.leadership }}
+                                      <li>{{ .position }} ('{{ substr .start_date 2 -3 }}-'{{ substr .end_date 2 -3 }}),
+                                        <a href="{{ .link }}" target="_blank">{{ .organization }}</a>
+                                      </li>
+                                      {{end}}
+                                    </ul>
+                                  </div>
+                                  {{ end }}
+                                  {{ if $.Site.Params.skills }}
+                                  <div class="services animate-box">
+                                    <h3>Skills</h3>
+                                    <ul>
+                                      {{ range $.Site.Params.skills }}
+                                      <li>{{ .content }}</li>
+                                      {{end}}
+                                    </ul>
+                                  </div>
+                                  {{ end }}
                                 </div>
+                                {{ if $.Site.Params.education }}
+                                <div class="col-md-12">
+                                  <div class="services animate-box">
+                                    <h3>Education</h3>
+                                    <ul>
+                                      {{ range $.Site.Params.education }}
+                                        <li>{{ .degreeSubtype }}
+                                          {{ if .majorTwo }}
+                                            {{ if .majorOne }}
+                                              in {{ .majorOne }} & {{ .majorTwo }}.
+                                            {{ else }}
+                                              in {{ .majorTwo }}.
+                                            {{ end }}
+                                          {{ else if .majorOne }}
+                                            in {{ .majorOne }}.
+                                          {{ end }}
+                                          {{ if .minorTwo }}
+                                            {{ if .minorOne }}
+                                              Minors in {{ .minorOne }} & {{ .minorTwo }}.
+                                            {{ else }}
+                                              Minor in {{ .minorTwo }}.
+                                            {{ end }}
+                                          {{ else if .minorOne }}
+                                              Minor in {{ .minorOne }}.
+                                          {{ end }}
+                                        </li>
+                                      {{end}}
+                                    </ul>
+                                  </div>
+                                </div>
+                                {{ end }}
                             </div>
                         </div>
                         {{ range $.Site.Params.assets }}
-                            {{ if eq .type "secondary" }}
-                              <img id="secondaryImage" class="one-forth services-img" src="" alt="{{ .metadata }}">
-                              <script type="text/javascript">
+                          {{ if eq .type "secondary" }}
+                            <img id="secondaryImage" class="one-forth" src="" alt="{{ .metadata }}">
+                                <script type="text/javascript">
                                 MYLIBRARY.getCdnUrl("secondaryImage", "{{ .url }}")
                               </script>
-                            {{ end }}
+                          {{ end }}
                         {{ end }}
                         </div>
                     </div>
@@ -176,50 +211,51 @@
         </div>
     </div>
 
-    {{ partial "articles.html" . }}
+    {{ if len $.Site.Pages }}
+<!--      {{ printf "%#v" (len $.Site.Pages) }}-->
+      {{ partial "articles.html" . }}
+    {{ end }}
 
+    {{ if $.Site.Params.references }}
     <div id="colorlib-testimony">
-        <div class="container">
-            <div class="row text-center">
-                <h2 class="bold">References</h2>
-            </div>
-            <div class="row">
-                <div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
-                    <span>References</span>
-                    <h2>Here's what my colleagues have to say.</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="rotate">
-                        <h2 class="heading">References</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row animate-box">
-                <div class="owl-carousel">
-                    {{ range $.Site.Params.references }}
-                    <div class="item">
-                        <div class="col-md-12 text-center">
-                            <div class="testimony">
-                                <blockquote>
-                                    <p>"{{ .content }}"</p>
-                                    <span>&mdash; {{ .author_name }}, {{ .author_position }} @ {{ .author_company }}</span>
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div>
-                    {{ end }}
-                </div>
-            </div>
+      <div class="container">
+        <div class="row text-center">
+          <h2 class="bold">References</h2>
         </div>
+        <div class="row">
+          <div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
+            <span>References</span>
+            <h2>Here's what my colleagues have to say.</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="rotate">
+              <h2 class="heading">References</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row animate-box">
+          <div class="owl-carousel">
+            {{ range $.Site.Params.references }}
+            <div class="item">
+              <div class="col-md-12 text-center">
+                <div class="testimony">
+                  <!--                                <blockquote>-->
+                  <h2>"{{ .content }}"</h2>
+                  <h3>&mdash; {{ .author_name }}, {{ .author_position }} @ {{ .author_company }}</h3>
+                  <!--                                </blockquote>-->
+                </div>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
     </div>
-
-    {{ partial "books.html" . }}
+    {{ end }}
 
     {{ partial "footer.html" . }}
-
-</div>
 
 <!-- jQuery -->
 <script src="js/jquery.min.js"></script>
