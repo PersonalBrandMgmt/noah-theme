@@ -11,14 +11,24 @@ const preBuild = () => {
   })
 };
 
+const getCdnUrl = (key) => {
+  const imageRequest = JSON.stringify({
+    bucket: 'cf-simple-s3-origin-cloudfrontfors3-273116933489',
+    key,
+  });
+  return `https://d1kk667yopfgms.cloudfront.net/${Buffer.from(imageRequest).toString('base64')}`;
+};
+
 const jsonToMarkdown = (postJson) => {
-  const { id, title, description, image, series, date, draft, markdown } = postJson;
+  const { id, title, description, image, series, date_published, draft, markdown } = postJson;
+
+  const cdnUrl = getCdnUrl(image || "2a297023-60db-48c9-994e-00c76621779c");
 
   fs.writeFileSync(`content/posts/${id}.md`, "---\n");
   fs.appendFileSync(`content/posts/${id}.md`, `title: "${title}"\n`);
-  fs.appendFileSync(`content/posts/${id}.md`, `date: ${date}\n`);
+  fs.appendFileSync(`content/posts/${id}.md`, `date: ${date_published}\n`);
   fs.appendFileSync(`content/posts/${id}.md`, `description: "${description}"\n`);
-  fs.appendFileSync(`content/posts/${id}.md`, `image: "${image}"\n`);
+  fs.appendFileSync(`content/posts/${id}.md`, `image: "${cdnUrl}"\n`);
   fs.appendFileSync(`content/posts/${id}.md`, `series: ${series}\n`);
   fs.appendFileSync(`content/posts/${id}.md`, `draft: ${draft}\n`);
   fs.appendFileSync(`content/posts/${id}.md`, "---\n");

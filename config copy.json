@@ -5,212 +5,134 @@
   "params": {
     "first_name": "Kieran",
     "last_name": "Derfus",
-    "email": "kderfus@gmail.com",
     "build": "development",
     "middleInitial": "_éi",
     "lastInitial": "rí_",
+    "email": "kieranderfus@gmail.com",
     "site_metadata": [
       {
-        "development_url": "http://development.kieranpaul.com.s3-website.us-east-2.amazonaws.com/",
-        "production_url": "https://www.kieranpaul.com/",
-        "destination_bucket": "development.kieranpaul.com",
-        "source_s3_bucket_path": "kieranpaul-source",
-        "theme": "noah"
+        "id": "c5a2e3e9-031f-46dd-92ec-f59017b72ae6",
+        "development_url": "https://develop.d181noh2hecbky.amplifyapp.com",
+        "production_url": "https://master.d181noh2hecbky.amplifyapp.com",
+        "theme": "noah",
+        "appId": "d181noh2hecbky",
+        "repoUrl": "https://github.com/PersonalBrandMgmt/a30c070e-db4e-413b-acb0-3f4ee9a459c9"
       }
     ],
     "assets": [
       {
-        "id": "a8c48a84-10cd-400f-a346-35a24e1f3b7c",
         "type": "primary",
-        "metadata": "Kieran Derfus",
-        "url": "https://d2czw3op36f92o.cloudfront.net/kieranpaul-source/42104900_10217531358101859_6475260220648980480_o.jpg"
+        "url": "d9e1850b-7114-43d7-bcdc-7e1c10116266",
+        "id": "469ee48c-8d98-4163-98a2-247eee531032"
       },
       {
-        "id": "ec1e699d-0fcc-4e96-939a-bcb6d2384770",
         "type": "secondary",
-        "metadata": "Kieran and Sydnee",
-        "url": "https://d2czw3op36f92o.cloudfront.net/kieranpaul-source/26239946_10208836972562084_38590451627255280_n.jpg"
+        "url": "c34c7318-6cc4-487e-b852-7c4c3d5a76f8",
+        "id": "2967b604-9037-49a0-86be-e6c4fa582d49"
       },
       {
-        "id": "c8881d1c-689c-4087-9f06-9a97de19bcff",
         "type": "resume",
-        "metadata": "Kieran Derfus Resume",
-        "url": "https://d2czw3op36f92o.cloudfront.net/kieranpaul-source/Derfus%2C+Kieran.pdf"
+        "url": "c34c7318-6cc4-487e-b852-7c4c3d5a76f8",
+        "id": "2967b604-9037-49a0-86be-e6c4fa582d49"
       }
     ],
     "coursework": [
       {
-        "id": "a2d99e6f-a73d-4a28-9444-572c6c9ffd29",
-        "course_name": "Micro"
+        "id": "bcdfda36-c17a-42dd-9f04-e51fc50a35b4",
+        "course_name": "Data Structures"
       },
       {
-        "id": "a2d99e6f-a73d-4a28-9444-572c6c9ffd29",
-        "course_name": "Intermediate Finance"
-      },
-      {
-        "id": "a2d99e6f-a73d-4a28-9444-572c6c9ffd29",
-        "course_name": "Management Accounting"
-      },
-      {
-        "id": "a2d99e6f-a73d-4a28-9444-572c6c9ffd29",
-        "course_name": "Organizational Behavior"
+        "id": "5aa6201a-6b0e-40da-9a0a-e7dafcb02b6c",
+        "course_name": "Discrete Math"
       }
     ],
     "leadership": [
       {
-        "position": "Chief Architect ('17-'19)",
-        "organization": "Deacs vs. Cancer",
-        "link": "https://team.curethekids.org/campaign/deacs-vs-cancer-2018/c174401",
-        "id": "5076334e-40b8-45c7-96f9-7e6952972cc0"
-      },
-      {
-        "position": "Active Member ('17-'19)",
-        "organization": "Alpha Sigma Phi Fraternity",
-        "link": "http://alphasigmaphi.org/",
-        "id": "5076334e-40b8-45c7-96f9-7e6952972cc0"
+        "position": "President",
+        "organization": "Plead the 5th",
+        "link": "https://pleadthefifthwfu.com",
+        "id": "d904694d-813c-430e-9c6b-ec31540e318a",
+        "start_date": "2014-09",
+        "end_date": "2018-05"
       }
     ],
     "references": [
-      {
-        "content": "Kieran has been a great addition to the team.",
-        "author_name": "Fazir Manthodi",
-        "author_company": "EY",
-        "author_position": "Managing Director"
-      },
-      {
-        "content": "Kieran has been a great addition to the team.",
-        "author_name": "Ragav",
-        "author_company": "EY",
-        "author_position": "Senior 2"
-      }
     ],
     "skills": [
       {
-        "content": "ReactJS",
-        "id": "11557536-6f43-445a-8b0a-f3bc8aeae78c"
+        "content": "Jazz Guitar",
+        "id": "a9dc7dce-8350-4183-877e-d2f1b467fb12"
       },
       {
-        "content": "Python",
-        "id": "11557536-6f43-445a-8b0a-f3bc8aeae78c"
-      },
+        "content": "Woodworking",
+        "id": "7bd8ceee-7274-4f72-8d03-f47ada631fb4"
+      }
+    ],
+    "education": [
       {
-        "content": "Grasshopper",
-        "id": "11557536-6f43-445a-8b0a-f3bc8aeae78c"
-      },
-      {
-        "content": "InDesign",
-        "id": "11557536-6f43-445a-8b0a-f3bc8aeae78c"
+        "id": "aeb732c6-cb88-42f9-ab45-0e2650689eda",
+        "degreeType": "Bachelor's Degree",
+        "degreeSubtype": "Bachelor of Arts (B.A.)",
+        "majorOne": "Computer Science",
+        "majorTwo": "Economics",
+        "minorOne": null,
+        "minorTwo": null,
+        "graduationDate": null
       }
     ],
     "experience": [
       {
-        "id": "fe12a13f-c998-499f-b89e-f0695c4a9eaf",
-        "position": "Head of Product",
-        "company": "Eiri",
-        "link": "https://personalbrandmgmt.com",
-        "start_date": "2019-10-15",
-        "end_date": "2019-10-26"
-      },
-      {
-        "id": "fe12a13f-c998-499f-b89e-f0695c4a9eaf",
-        "position": "Senior",
-        "company": "EY",
-        "link": "https://consulting.ey.com",
-        "start_date": "2019-10-15",
-        "end_date": "2019-10-26"
-      },
-      {
-        "id": "fe12a13f-c998-499f-b89e-f0695c4a9eaf",
-        "position": "Founder",
-        "company": "Chune Supply",
-        "link": "https://chunesupply.com",
-        "start_date": "2019-10-15",
-        "end_date": "2019-10-26"
+        "position": "Staff 2",
+        "company": "EY Consulting",
+        "link": "https://ey.com/consulting",
+        "start_date": "2017-03",
+        "end_date": "2018-03",
+        "id": "508950be-9cf8-49be-8aec-42c0d818b256"
       }
     ],
     "articles": [
       {
-        "title": "Lyft Off? The First Ride Sharing IPO!",
-        "caption": "From Musings on Markets - Finance Professor Aswath Damodaran on Lyft pre-IPO",
-        "url": "http://aswathdamodaran.blogspot.com/2019/03/lyft-off-first-ride-sharing-ipo.html"
-      },
-      {
-        "title": "Yikes!",
-        "caption": "From Musings on Markets - Finance Professor Aswath Damodaran on Lyft pre-IPO",
-        "url": "http://aswathdamodaran.blogspot.com/2019/03/lyft-off-first-ride-sharing-ipo.html"
-      },
-      {
-        "title": "Yikes Again!",
-        "caption": "From Musings on Markets - Finance Professor Aswath Damodaran on Lyft pre-IPO",
-        "url": "http://aswathdamodaran.blogspot.com/2019/03/lyft-off-first-ride-sharing-ipo.html"
+        "title": "U.S. Passengers Depart Cruise Ship Quarantined Over Coronavirus",
+        "caption": "Some remain in hospitals across Tokyo. Those allowed to fly home must serve out an additional 14-day quarantine.",
+        "url": "https://www.wsj.com/articles/u-s-passengers-prepare-to-evacuate-coronavirus-cruise-ship-in-japan-11581858436?mod=hp_lead_pos1",
+        "id": "144de26c-a673-40ce-abcb-932cfd670769"
       }
     ],
     "intro": [
       {
-        "content": "This for my sister, that for my maple. It's not going the road I'd known as a child of God ... nor to become stable. (So what if I lose? I'm satisfied)",
-        "account_id": "dee652d3-30d5-460d-bea1-4e8df10101d7",
-        "id": "91a91833-ba96-44b8-ac4d-130717ef2dea"
+        "content": "I'm not 100% sure what will happen when I hit save. \n\nTurns out it's ok!!!!",
+        "account_id": "c5a2e3e9-031f-46dd-92ec-f59017b72ae6",
+        "id": "379f8358-d70b-4aa9-b694-fb603fefdb67"
       }
     ],
-    "socials": [
-      {
-        "id": "4300d501-e9f6-4fc7-9879-89c5501151a7",
-        "account_id": "dee652d3-30d5-460d-bea1-4e8df10101d7",
-        "type": "facebook",
-        "url": "https://www.facebook.com/kieran.derfus"
-      },
-      {
-        "id": "4d547911-b3d1-4604-84f7-c6093984f120",
-        "account_id": "dee652d3-30d5-460d-bea1-4e8df10101d7",
-        "type": "linkedin",
-        "url": "https://www.linkedin.com/in/kieranderfus"
-      }
-    ],
+    "socials": [],
     "posts": [
       {
-        "title": "A Smart Man Once Said ...",
-        "caption": "Stay Golden, Ponyboy",
-        "markdown": "Me and Greg in Prague.\n",
-        "html": "<p>Me and Greg in Prague.</p>\n",
-        "date_published": "2019-11-15",
-        "image_url": "https://d2czw3op36f92o.cloudfront.net/kieranpaul-source/16722614_10206532771118488_3464355287299241309_o.jpg",
-        "series": "books"
+        "id": "1",
+        "title": "My First Post",
+        "date": "2019-04-08T22:32:06-04:00",
+        "image": "https://d1kk667yopfgms.cloudfront.net/eyJidWNrZXQiOiJjZi1zaW1wbGUtczMtb3JpZ2luLWNsb3VkZnJvbnRmb3JzMy0yNzMxMTY5MzM0ODkiLCJrZXkiOiJjMzRjNzMxOC02Y2M0LTQ4N2UtYjg1Mi03YzRjM2Q1YTc2ZjgifQ==",
+        "series": "posts",
+        "draft": false,
+        "markdown": "Hey this **editor** [rocks](http://google.com) 😀"
       },
       {
-        "title": "Becoming by Michelle Obama",
-        "caption": "Incredible! Inspirational!",
-        "markdown": "Barry O ain't know what he got.\n",
-        "html": "<p>Barry O ain't know what he got.</p>\n",
-        "date_published": "2019-11-15",
-        "image_url": "https://d2czw3op36f92o.cloudfront.net/kieranpaul-source/michelle_obama_first_official_portrait_as_first_lady.jpg",
-        "series": "books"
+        "id": "2",
+        "title": "My Second Post",
+        "date": "2019-04-08T22:32:06-04:00",
+        "image": "https://d1kk667yopfgms.cloudfront.net/eyJidWNrZXQiOiJjZi1zaW1wbGUtczMtb3JpZ2luLWNsb3VkZnJvbnRmb3JzMy0yNzMxMTY5MzM0ODkiLCJrZXkiOiJjMzRjNzMxOC02Y2M0LTQ4N2UtYjg1Mi03YzRjM2Q1YTc2ZjgifQ==",
+        "series": "posts",
+        "draft": false,
+        "markdown": "Hey this **editor** [rocks](http://google.com) 😀"
       },
       {
-        "title": "Hello, World",
-        "caption": "The Classic",
-        "markdown": "Hey this **editor** rocks",
-        "html": "<p>Hey this <strong>editor</strong> rocks</p>",
-        "date_published": "2019-11-14",
-        "image_url": "https://d2czw3op36f92o.cloudfront.net/kieranpaul-source/26239946_10208836972562084_38590451627255280_n.jpg",
-        "series": "posts"
-      },
-      {
-        "title": "The Pup!",
-        "caption": "Heartbreaking, really cold.",
-        "markdown": "Sing us a song, piano man.\n",
-        "html": "<p>Sing us a song, piano man.</p>\n",
-        "date_published": "2019-11-15",
-        "image_url": "https://d2czw3op36f92o.cloudfront.net/kieranpaul-source/insta_pup.jpg",
-        "series": "experience"
-      },
-      {
-        "title": "All Quiet On The Western Front",
-        "caption": "Heartbreaking, really cold.",
-        "markdown": "Heartbreaking, ***really*** cold.\n",
-        "html": "<p>Heartbreaking, <strong><em>really</em></strong> cold.</p>\n",
-        "date_published": "2019-11-15",
-        "image_url": "https://d2czw3op36f92o.cloudfront.net/kieranpaul-source/42058892_10217531344461518_3363011726944501760_o.jpg",
-        "series": "books"
+        "id": "3",
+        "title": "My Third Post",
+        "date": "2019-04-08T22:32:06-04:00",
+        "image": "https://d1kk667yopfgms.cloudfront.net/eyJidWNrZXQiOiJjZi1zaW1wbGUtczMtb3JpZ2luLWNsb3VkZnJvbnRmb3JzMy0yNzMxMTY5MzM0ODkiLCJrZXkiOiJjMzRjNzMxOC02Y2M0LTQ4N2UtYjg1Mi03YzRjM2Q1YTc2ZjgifQ==",
+        "series": "posts",
+        "draft": false,
+        "markdown": "Hey this **editor** [rocks](http://google.com) 😀"
       }
     ]
   }
