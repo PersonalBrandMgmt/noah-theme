@@ -11,70 +11,64 @@
     "email": "kieranderfus@gmail.com",
     "site_metadata": [
       {
-        "id": "c5a2e3e9-031f-46dd-92ec-f59017b72ae6",
-        "development_url": "https://develop.d181noh2hecbky.amplifyapp.com",
-        "production_url": "https://master.d181noh2hecbky.amplifyapp.com",
+        "id": "63711bfd-8b06-4c28-a460-69ad3657d251",
+        "development_url": "https://develop.d1cdiia7u1l20z.amplifyapp.com",
+        "production_url": "https://master.d1cdiia7u1l20z.amplifyapp.com",
         "theme": "noah",
-        "appId": "d181noh2hecbky",
-        "repoUrl": "https://github.com/PersonalBrandMgmt/a30c070e-db4e-413b-acb0-3f4ee9a459c9"
+        "appId": "d1cdiia7u1l20z",
+        "repoUrl": "https://github.com/PersonalBrandMgmt/411dee18-7a64-4dd5-9f8e-05c23c99e043"
       }
     ],
     "assets": [
       {
-        "type": "primary",
-        "url": "d9e1850b-7114-43d7-bcdc-7e1c10116266",
-        "id": "469ee48c-8d98-4163-98a2-247eee531032"
-      },
-      {
         "type": "secondary",
-        "url": "c34c7318-6cc4-487e-b852-7c4c3d5a76f8",
-        "id": "2967b604-9037-49a0-86be-e6c4fa582d49"
+        "url": "fdf12ee3-6d79-4672-a03f-a6b734dd0e8f",
+        "id": "e4b4cc08-0bde-4bec-86e4-d8e6f5d2994d"
       },
       {
-        "type": "resume",
-        "url": "c34c7318-6cc4-487e-b852-7c4c3d5a76f8",
-        "id": "2967b604-9037-49a0-86be-e6c4fa582d49"
+        "type": "primary",
+        "url": "2a297023-60db-48c9-994e-00c76621779c",
+        "id": "1128e0d4-9108-44b1-b328-29d5d7cf04ea"
       }
     ],
     "coursework": [
       {
-        "id": "bcdfda36-c17a-42dd-9f04-e51fc50a35b4",
-        "course_name": "Data Structures"
+        "id": "bbfbd6af-a8e0-4f24-a7fd-91d6af04765c",
+        "course_name": "Multivariate Stats"
       },
       {
-        "id": "5aa6201a-6b0e-40da-9a0a-e7dafcb02b6c",
-        "course_name": "Discrete Math"
+        "id": "9bf0eb48-744f-4759-b493-857b8f60a273",
+        "course_name": "Statistical Learning"
       }
     ],
     "leadership": [
       {
         "position": "President",
-        "organization": "Plead the 5th",
+        "organization": "Plead the Fifth",
         "link": "https://pleadthefifthwfu.com",
-        "id": "d904694d-813c-430e-9c6b-ec31540e318a",
-        "start_date": "2014-09",
-        "end_date": "2018-05"
+        "id": "0b116503-b5c1-496b-8184-feca03987d93",
+        "start_date": "2018-01",
+        "end_date": "2019-05"
       }
     ],
-    "references": [
-    ],
+    "references": [],
     "skills": [
       {
-        "content": "Jazz Guitar",
-        "id": "a9dc7dce-8350-4183-877e-d2f1b467fb12"
+        "content": "Access",
+        "id": "de62967c-ec9c-4098-b84f-4952bb11462f"
       },
       {
-        "content": "Woodworking",
-        "id": "7bd8ceee-7274-4f72-8d03-f47ada631fb4"
+        "content": "Python",
+        "id": "e72b2e21-10ea-46af-bb7a-872e02d5b6d7"
       }
     ],
     "education": [
       {
-        "id": "aeb732c6-cb88-42f9-ab45-0e2650689eda",
+        "id": "7114ca8a-b7b0-4c48-9f6a-8689d6a86007",
         "degreeType": "Bachelor's Degree",
-        "degreeSubtype": "Bachelor of Arts (B.A.)",
-        "majorOne": "Computer Science",
-        "majorTwo": "Economics",
+        "degreeSubtype": "Bachelor of Science (B.S.)",
+        "majorOne": "Finance",
+        "majorTwo": null,
         "minorOne": null,
         "minorTwo": null,
         "graduationDate": null
@@ -82,60 +76,60 @@
     ],
     "experience": [
       {
-        "position": "Staff 2",
-        "company": "EY Consulting",
-        "link": "https://ey.com/consulting",
-        "start_date": "2017-03",
-        "end_date": "2018-03",
-        "id": "508950be-9cf8-49be-8aec-42c0d818b256"
+        "position": "Analyst",
+        "company": "T. Rowe Price",
+        "link": "https://www.troweprice.com/personal-investing/home.html?PlacementGUID=4RJ42w8l&ATLID=1&gclid=Cj0KCQiAkePyBRCEARIsAMy5Scsau01sX2yuguuIDTYGwLSmNnO0UooO1PrBP65i5B-C4_BNuuGbbecaAuZ-EALw_wcB&mkwid=s4RJ42w8l_317502899884_t.rowe%20price_e_c&mtid=2550w6259815&slid=&product_id=",
+        "start_date": "2019-02",
+        "end_date": "2020-02",
+        "id": "b3583c36-9fb4-41df-8d34-602982707f09"
       }
     ],
     "articles": [
       {
-        "title": "U.S. Passengers Depart Cruise Ship Quarantined Over Coronavirus",
-        "caption": "Some remain in hospitals across Tokyo. Those allowed to fly home must serve out an additional 14-day quarantine.",
-        "url": "https://www.wsj.com/articles/u-s-passengers-prepare-to-evacuate-coronavirus-cruise-ship-in-japan-11581858436?mod=hp_lead_pos1",
-        "id": "144de26c-a673-40ce-abcb-932cfd670769"
+        "title": "The Tax Law Gives Municipal Bonds a New Allure",
+        "caption": "Featuring my old man",
+        "url": "https://www.nytimes.com/2018/02/23/business/the-tax-law-gives-municipal-bonds-a-new-allure.html?smid=tw-share",
+        "id": "7f54f5a2-07d1-4a36-812c-24839c2f9bb0"
       }
     ],
     "intro": [
       {
-        "content": "I'm not 100% sure what will happen when I hit save. \n\nTurns out it's ok!!!!",
-        "account_id": "c5a2e3e9-031f-46dd-92ec-f59017b72ae6",
-        "id": "379f8358-d70b-4aa9-b694-fb603fefdb67"
+        "content": "Hi, I'm Andrew. I'm from Baltimore, Maryland and I study Mathematical Business at Wake Forest University. I chose Math Business because I excel in environments that require analytical thinking, and I'm most interested in financial services. If given the opportunity, I would enjoy working for a firm that allows me to explore the intersection of financial data and analytical thinking. Thanks for checking out the site!",
+        "account_id": "63711bfd-8b06-4c28-a460-69ad3657d251",
+        "id": "cef7bab2-0c0e-407c-a45a-ebba83faaa43"
       }
     ],
     "socials": [],
     "posts": [
       {
-        "id": "1",
-        "title": "My First Post",
-        "date": "2019-04-08T22:32:06-04:00",
-        "description": "Description will go here.",
-        "image": "https://d1kk667yopfgms.cloudfront.net/eyJidWNrZXQiOiJjZi1zaW1wbGUtczMtb3JpZ2luLWNsb3VkZnJvbnRmb3JzMy0yNzMxMTY5MzM0ODkiLCJrZXkiOiJjMzRjNzMxOC02Y2M0LTQ4N2UtYjg1Mi03YzRjM2Q1YTc2ZjgifQ==",
-        "series": "posts",
-        "draft": false,
-        "markdown": "Hey this **editor** [rocks](http://google.com) 😀"
+        "id": "dc8d0664-ff41-436a-a2ca-14d03193a384",
+        "title": "What Have I Done?",
+        "date_published": "2020-02-28T15:46:13",
+        "html": "<p>Woke up this morning, light poured in, you're with me.</p>\n<p></p>\n<p>I thought I'd be better off alone.</p>\n",
+        "series": null,
+        "draft": "false",
+        "markdown": "Woke up this morning, light poured in, you're with me.\n\nI thought I'd be better off alone.\n",
+        "image_url": null
       },
       {
-        "id": "2",
-        "title": "My Second Post",
-        "date": "2019-04-08T22:32:06-04:00",
-        "description": "Description will go here.",
-        "image": "https://d1kk667yopfgms.cloudfront.net/eyJidWNrZXQiOiJjZi1zaW1wbGUtczMtb3JpZ2luLWNsb3VkZnJvbnRmb3JzMy0yNzMxMTY5MzM0ODkiLCJrZXkiOiJjMzRjNzMxOC02Y2M0LTQ4N2UtYjg1Mi03YzRjM2Q1YTc2ZjgifQ==",
+        "id": "3a333a0e-b040-430d-b090-1c3f99d1098b",
+        "title": "The Corner",
+        "date_published": "2020-02-28T15:46:13",
+        "html": "<p>This should have never been your road. We should have stayed there on the corner.</p>\n",
         "series": "posts",
-        "draft": false,
-        "markdown": "Hey this **editor** [rocks](http://google.com) 😀"
+        "draft": "false",
+        "markdown": "This should have never been your road. We should have stayed there on the corner.\n",
+        "image_url": null
       },
       {
-        "id": "3",
-        "title": "My Third Post",
-        "date": "2019-04-08T22:32:06-04:00",
-        "description": "Description will go here.",
-        "image": "https://d1kk667yopfgms.cloudfront.net/eyJidWNrZXQiOiJjZi1zaW1wbGUtczMtb3JpZ2luLWNsb3VkZnJvbnRmb3JzMy0yNzMxMTY5MzM0ODkiLCJrZXkiOiJjMzRjNzMxOC02Y2M0LTQ4N2UtYjg1Mi03YzRjM2Q1YTc2ZjgifQ==",
-        "series": "posts",
-        "draft": false,
-        "markdown": "Hey this **editor** [rocks](http://google.com) 😀"
+        "id": "f65d9a8f-fc60-4d7e-b1b7-408dbff16e70",
+        "title": "An Evening I Will Not Forget",
+        "date_published": "2020-02-28T15:46:13",
+        "html": "<p>So hold me when I'm home ... <strong><em>keep the evenings long.</em></strong></p>\n",
+        "series": null,
+        "draft": null,
+        "markdown": "So hold me when I'm home ... ***keep the evenings long.***\n",
+        "image_url": null
       }
     ]
   }
