@@ -211,10 +211,7 @@
         </div>
     </div>
 
-    {{ if len $.Site.Pages }}
-<!--      {{ printf "%#v" (len $.Site.Pages) }}-->
-      {{ partial "articles.html" . }}
-    {{ end }}
+    {{ partial "articles.html" . }}
 
     {{ if $.Site.Params.references }}
     <div id="colorlib-testimony">
