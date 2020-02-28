@@ -11,34 +11,132 @@
     "email": "kieranderfus@gmail.com",
     "site_metadata": [
       {
-        "id": "c9020dc9-1687-4926-8fcc-cb3c93800787",
-        "development_url": "https://develop.d3q3k4oywgfjjc.amplifyapp.com",
-        "production_url": "https://master.d3q3k4oywgfjjc.amplifyapp.com",
+        "id": "c5a2e3e9-031f-46dd-92ec-f59017b72ae6",
+        "development_url": "https://develop.d181noh2hecbky.amplifyapp.com",
+        "production_url": "https://master.d181noh2hecbky.amplifyapp.com",
         "theme": "noah",
-        "appId": "d3q3k4oywgfjjc",
-        "repoUrl": "https://github.com/PersonalBrandMgmt/0e9584e9-2e1b-4c06-aaf2-c3307c45c573"
+        "appId": "d181noh2hecbky",
+        "repoUrl": "https://github.com/PersonalBrandMgmt/a30c070e-db4e-413b-acb0-3f4ee9a459c9"
       }
     ],
     "assets": [
       {
         "type": "primary",
-        "url": "a924d27f-3434-41b1-943d-9cb720f396a6",
-        "id": "8293f876-7335-4a7f-a782-4399a163a248"
+        "url": "d9e1850b-7114-43d7-bcdc-7e1c10116266",
+        "id": "469ee48c-8d98-4163-98a2-247eee531032"
       },
       {
         "type": "secondary",
-        "url": "e8a3d2f3-4a92-49a0-8ca2-dcc921211fe5",
-        "id": "5cf9f0ec-cd1c-4774-bc86-e6fbb89ff8b4"
+        "url": "c34c7318-6cc4-487e-b852-7c4c3d5a76f8",
+        "id": "2967b604-9037-49a0-86be-e6c4fa582d49"
+      },
+      {
+        "type": "resume",
+        "url": "c34c7318-6cc4-487e-b852-7c4c3d5a76f8",
+        "id": "2967b604-9037-49a0-86be-e6c4fa582d49"
       }
     ],
-    "coursework": [],
-    "leadership": [],
-    "references": [],
-    "skills": [],
-    "experience": [],
-    "articles": [],
-    "intro": [],
+    "coursework": [
+      {
+        "id": "bcdfda36-c17a-42dd-9f04-e51fc50a35b4",
+        "course_name": "Data Structures"
+      },
+      {
+        "id": "5aa6201a-6b0e-40da-9a0a-e7dafcb02b6c",
+        "course_name": "Discrete Math"
+      }
+    ],
+    "leadership": [
+      {
+        "position": "President",
+        "organization": "Plead the 5th",
+        "link": "https://pleadthefifthwfu.com",
+        "id": "d904694d-813c-430e-9c6b-ec31540e318a",
+        "start_date": "2014-09",
+        "end_date": "2018-05"
+      }
+    ],
+    "references": [
+    ],
+    "skills": [
+      {
+        "content": "Jazz Guitar",
+        "id": "a9dc7dce-8350-4183-877e-d2f1b467fb12"
+      },
+      {
+        "content": "Woodworking",
+        "id": "7bd8ceee-7274-4f72-8d03-f47ada631fb4"
+      }
+    ],
+    "education": [
+      {
+        "id": "aeb732c6-cb88-42f9-ab45-0e2650689eda",
+        "degreeType": "Bachelor's Degree",
+        "degreeSubtype": "Bachelor of Arts (B.A.)",
+        "majorOne": "Computer Science",
+        "majorTwo": "Economics",
+        "minorOne": null,
+        "minorTwo": null,
+        "graduationDate": null
+      }
+    ],
+    "experience": [
+      {
+        "position": "Staff 2",
+        "company": "EY Consulting",
+        "link": "https://ey.com/consulting",
+        "start_date": "2017-03",
+        "end_date": "2018-03",
+        "id": "508950be-9cf8-49be-8aec-42c0d818b256"
+      }
+    ],
+    "articles": [
+      {
+        "title": "U.S. Passengers Depart Cruise Ship Quarantined Over Coronavirus",
+        "caption": "Some remain in hospitals across Tokyo. Those allowed to fly home must serve out an additional 14-day quarantine.",
+        "url": "https://www.wsj.com/articles/u-s-passengers-prepare-to-evacuate-coronavirus-cruise-ship-in-japan-11581858436?mod=hp_lead_pos1",
+        "id": "144de26c-a673-40ce-abcb-932cfd670769"
+      }
+    ],
+    "intro": [
+      {
+        "content": "I'm not 100% sure what will happen when I hit save. \n\nTurns out it's ok!!!!",
+        "account_id": "c5a2e3e9-031f-46dd-92ec-f59017b72ae6",
+        "id": "379f8358-d70b-4aa9-b694-fb603fefdb67"
+      }
+    ],
     "socials": [],
-    "posts": []
+    "posts": [
+      {
+        "id": "1",
+        "title": "My First Post",
+        "date": "2019-04-08T22:32:06-04:00",
+        "description": "Description will go here.",
+        "image": "https://d1kk667yopfgms.cloudfront.net/eyJidWNrZXQiOiJjZi1zaW1wbGUtczMtb3JpZ2luLWNsb3VkZnJvbnRmb3JzMy0yNzMxMTY5MzM0ODkiLCJrZXkiOiJjMzRjNzMxOC02Y2M0LTQ4N2UtYjg1Mi03YzRjM2Q1YTc2ZjgifQ==",
+        "series": "posts",
+        "draft": false,
+        "markdown": "Hey this **editor** [rocks](http://google.com) 😀"
+      },
+      {
+        "id": "2",
+        "title": "My Second Post",
+        "date": "2019-04-08T22:32:06-04:00",
+        "description": "Description will go here.",
+        "image": "https://d1kk667yopfgms.cloudfront.net/eyJidWNrZXQiOiJjZi1zaW1wbGUtczMtb3JpZ2luLWNsb3VkZnJvbnRmb3JzMy0yNzMxMTY5MzM0ODkiLCJrZXkiOiJjMzRjNzMxOC02Y2M0LTQ4N2UtYjg1Mi03YzRjM2Q1YTc2ZjgifQ==",
+        "series": "posts",
+        "draft": false,
+        "markdown": "Hey this **editor** [rocks](http://google.com) 😀"
+      },
+      {
+        "id": "3",
+        "title": "My Third Post",
+        "date": "2019-04-08T22:32:06-04:00",
+        "description": "Description will go here.",
+        "image": "https://d1kk667yopfgms.cloudfront.net/eyJidWNrZXQiOiJjZi1zaW1wbGUtczMtb3JpZ2luLWNsb3VkZnJvbnRmb3JzMy0yNzMxMTY5MzM0ODkiLCJrZXkiOiJjMzRjNzMxOC02Y2M0LTQ4N2UtYjg1Mi03YzRjM2Q1YTc2ZjgifQ==",
+        "series": "posts",
+        "draft": false,
+        "markdown": "Hey this **editor** [rocks](http://google.com) 😀"
+      }
+    ]
   }
 }
