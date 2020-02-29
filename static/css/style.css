@@ -7,7 +7,7 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -51,7 +51,8 @@ p, span {
 
 ul, ol {
   display: block;
-  margin-bottom: 1.5em; }
+  margin-bottom: 2em;
+}
 
 span {
   font-size: 18px;
@@ -60,7 +61,7 @@ span {
 h1, h2, h3, h4, h5, h6 {
   color: rgba(0, 0, 0, 0.8);
   font-family: "Playfair Display", Georgia, serif;
-  margin: 0 0 30px 0; }
+  margin: 0 0 10px 0; }
 
 ::-webkit-selection {
   color: #fcfcfc;
@@ -687,7 +688,7 @@ header {
         display: block; } }
 
 .services {
-  margin-bottom: 4em; }
+  margin-bottom: 0; }
   .services h3 {
     font-family: "Karla", Arial, sans-serif;
     font-size: 16px;
@@ -695,7 +696,8 @@ header {
     font-weight: 700; }
   .services ul li {
     list-style: none;
-    margin-bottom: 10px; }
+    margin-bottom: 0;
+  }
     .services ul li::before {
       content: '\2022';
       color: #000;
