@@ -1,25 +1,153 @@
 {
   "languageCode": "en-us",
-  "baseURL": "",
-  "title": "",
+  "title": "Kieran Derfus",
   "params": {
-    "first_name": "",
-    "last_name": "",
-    "build": "",
+    "first_name": "Kieran",
+    "last_name": "Derfus",
     "middleInitial": "_éi",
     "lastInitial": "rí_",
-    "email": "",
-    "site_metadata": [],
-    "assets": [],
-    "coursework": [],
-    "leadership": [],
-    "references": [],
-    "skills": [],
-    "education": [],
-    "experience": [],
-    "articles": [],
-    "intro": [],
+    "email": "kieranderfus@gmail.com",
+    "site_metadata": [
+      {
+        "id": "9b69860f-2bb9-45b6-9a0e-a8ecb17361fb",
+        "development_url": "https://develop.d3f8rpl6xkngpe.amplifyapp.com",
+        "production_url": "https://master.d3f8rpl6xkngpe.amplifyapp.com",
+        "theme": "noah",
+        "appId": "d3f8rpl6xkngpe",
+        "repoUrl": "https://github.com/PersonalBrandMgmt/254806a2-486e-485c-8055-d0598178442b"
+      }
+    ],
+    "assets": [
+      {
+        "type": "primary",
+        "url": "3ea652d6-0311-42de-b5f9-113d5e11b214",
+        "id": "cf0a0e0c-ea2f-4e4d-99cf-da2f4098ab3c"
+      },
+      {
+        "type": "resume",
+        "url": "deb05a88-30d5-4a3f-a6e8-21a697c8476b",
+        "id": "14d59857-cf77-4428-902e-0a2642298b39"
+      },
+      {
+        "type": "secondary",
+        "url": "c6b47ac0-e9ff-453c-bb54-c452009a3b41",
+        "id": "5b41b57a-818a-4441-8de2-5072cc60ec27"
+      }
+    ],
+    "coursework": [
+      {
+        "id": "60d77063-d61e-41ab-9886-c758f940aa2c",
+        "course_name": "Macroeconomics"
+      },
+      {
+        "id": "9a5e8c73-eda4-4b72-bb74-a318af72043a",
+        "course_name": "Discrete Math"
+      },
+      {
+        "id": "d13cf3f0-d725-40a5-b0ec-78e9b8783b93",
+        "course_name": "Linear Algebra"
+      },
+      {
+        "id": "b1860a11-551b-4335-95a7-d56d5f2564d4",
+        "course_name": "Microeconomics"
+      }
+    ],
+    "leadership": [
+      {
+        "position": "President",
+        "organization": "Plead the Fifth",
+        "link": "https://pleadthefifthwfu.com",
+        "id": "784d3c03-271a-45a1-ad6f-a322ff9c0580",
+        "start_date": "2016-03",
+        "end_date": "2018-05"
+      }
+    ],
+    "references": [
+      {
+        "id": "64316054-2019-4f9a-8589-e8a04a1f12cd",
+        "content": "The People's Market is the hottest spot in the CLT",
+        "author_name": "Cory",
+        "author_company": "The People's Market",
+        "author_position": "Owner"
+      }
+    ],
+    "skills": [
+      {
+        "content": "Product Management",
+        "id": "9a2a71ff-7504-402e-a273-a1505ef84fb0"
+      },
+      {
+        "content": "ReactJS",
+        "id": "a036988a-37f9-4221-9dd7-0b6384c69701"
+      },
+      {
+        "content": "Python",
+        "id": "aed0a77b-d16c-4597-90ac-fd76fe05e598"
+      },
+      {
+        "content": "AWS / Azure Cloud Architecture",
+        "id": "6feff849-7dc8-4a2e-a521-6cd751d9a448"
+      }
+    ],
+    "education": [
+      {
+        "id": "b0500abb-03aa-4c5c-8638-aecf8442d5e1",
+        "degreeType": "Bachelor's Degree",
+        "degreeSubtype": "Bachelor of Arts (B.A.)",
+        "majorOne": "Computer Science",
+        "majorTwo": "Economics",
+        "minorOne": null,
+        "minorTwo": null,
+        "graduationDate": null
+      }
+    ],
+    "experience": [
+      {
+        "position": "Consultant",
+        "company": "EY",
+        "link": "https://ey.com/consulting",
+        "start_date": "2018-10",
+        "end_date": "2020-03",
+        "id": "e89df0cb-2115-4454-be82-36df832778be"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Motorola Razr vs. Samsung Galaxy Z Flip: The Flip Phone Is Back and It’s Not a Total Flop",
+        "caption": "Is the latest foldable phone trend a gimmick or a godsend? It could be a little of both.",
+        "url": "https://pleadthefifthwfu.com",
+        "id": "45552cef-e073-442a-95c0-664809851de8"
+      }
+    ],
+    "intro": [
+      {
+        "content": "Ever since I heard the howling wind ... I didn't need to go where a bible went. ",
+        "account_id": "9b69860f-2bb9-45b6-9a0e-a8ecb17361fb",
+        "id": "c95b072e-bd73-4cd9-a560-0d54779f94b4"
+      }
+    ],
     "socials": [],
-    "posts": []
+    "posts": [
+      {
+        "id": "8658a204-354b-44c6-a874-9086b0b0e814",
+        "title": "The Corner",
+        "date_published": "2020-03-01T13:30:12",
+        "html": "<p>This should have never been your road.</p>\n<p></p>\n<h1>We should have stayed on <em>there</em> on the <strong>corner</strong>.</h1>\n",
+        "series": "posts",
+        "draft": "false",
+        "markdown": "This should have never been your road.\n\n# We should have stayed on *there* on the **corner**.\n",
+        "image_url": "f2fd9b7e-3fb9-466f-952c-ac5175cfce70"
+      },
+      {
+        "id": "641cb71b-f985-492d-b0d4-09635c1e4d65",
+        "title": "Without Fear",
+        "date_published": "2020-02-29T18:02:30",
+        "html": "<p>Because of her, because of her ...</p>\n",
+        "series": "posts",
+        "draft": "false",
+        "markdown": "Because of her, because of her ...\n",
+        "image_url": null
+      }
+    ]
   }
 }
