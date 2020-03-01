@@ -20,9 +20,9 @@ const getCdnUrl = (key) => {
 };
 
 const jsonToMarkdown = (postJson) => {
-  const { id, title, description, image, series, date_published, draft, markdown } = postJson;
+  const { id, title, description, image_url, series, date_published, draft, markdown } = postJson;
 
-  const cdnUrl = getCdnUrl(image || "2a297023-60db-48c9-994e-00c76621779c");
+  const cdnUrl = getCdnUrl(image_url || "2a297023-60db-48c9-994e-00c76621779c");
 
   fs.writeFileSync(`content/posts/${id}.md`, "---\n");
   fs.appendFileSync(`content/posts/${id}.md`, `title: "${title}"\n`);
