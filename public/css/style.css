@@ -7,7 +7,7 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -673,12 +673,16 @@ header {
     width: 55%;
     padding: 3em 2em 3em 0; }
   .services-flex .one-forth {
-    width: 45%; }
+    width: 45%;
+  }
     .services-flex .one-forth .one-third, .services-flex .one-forth .one-forth {
-      display: inline-block; }
+      /*display: inline-block; */
+    }
       @media screen and (max-width: 768px) {
         .services-flex .one-forth .one-third, .services-flex .one-forth .one-forth {
-          height: 400px; } }
+          height: 400px;
+        }
+      }
   .services-flex .one-third, .services-flex .one-forth {
     display: inline-block; }
     @media screen and (max-width: 768px) {

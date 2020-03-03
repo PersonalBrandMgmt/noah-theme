@@ -8,37 +8,49 @@
                           <h2>Contact Me</h2>
                           <p>{{ $.Site.Params.email }}</p>
                           <p class="colorlib-social-icons">
-                                {{ range $.Site.Params.socials }}
-                                    {{ if eq .type "facebook" }}
-                                        <a href="{{ .url }}" target="_blank"><i class="icon-facebook4"></i></a>
-                                    {{ end }}
-                                    {{ if eq .type "linkedin" }}
-                                        <a href="{{ .url }}" target="_blank"><i class="icon-linkedin4"></i></a>
-                                    {{ end }}
-                                    {{ if eq .type "instagram" }}
-                                        <a href="{{ .url }}" target="_blank"><i class="icon-instagram"></i></a>
-                                    {{ end }}
-                                    {{ if eq .type "twitter" }}
-                                        <a href="{{ .url }}" target="_blank"><i class="icon-twitter"></i></a>
-                                    {{ end }}
-                                    {{ if eq .type "tumblr" }}
-                                        <a href="{{ .url }}" target="_blank"><i class="icon-tumblr"></i></a>
-                                    {{ end }}
-                                    {{ if eq .type "github" }}
-                                        <a href="{{ .url }}" target="_blank"><i class="icon-github"></i></a>
-                                    {{ end }}
-                                    {{ if eq .type "issuu" }}
-                                        <a href="{{ .url }}" target="_blank">issuu</i></a>
-                                    {{ end }}
-                                    {{ if eq .type "medium" }}
-                                        <a href="{{ .url }}" target="_blank"><i class="icon-medium"></i></a>
-                                    {{ end }}
-                                {{ end }}
-                            <!--<p><a href="#">{{ .Site.Params.Email }}</a></p>-->
-                            <!--<p class="colorlib-social-icons">-->
-                                <!--<a href="{{ .Site.Params.facebook }}" target="_blank"><i class="icon-facebook4"></i></a>-->
-                                <!--<a href="{{ .Site.Params.linkedin }}" target="_blank"><i class="icon-linkedin4"></i></a>-->
-                            </p>
+                            {{ range $.Site.Params.socials }}
+                            {{ if eq .type "Facebook" }}
+                            {{ if .url }}
+                            <a href="{{ .url }}" target="_blank"><i class="icon-facebook4"></i></a>
+                            {{ end }}
+                            {{ end }}
+                            {{ if eq .type "LinkedIn" }}
+                            {{ if .url }}
+                            <a href="{{ .url }}" target="_blank"><i class="icon-linkedin4"></i></a>
+                            {{ end }}
+                            {{ end }}
+                            {{ if eq .type "Instagram" }}
+                            {{ if .url }}
+                            <a href="{{ .url }}" target="_blank"><i class="icon-instagram"></i></a>
+                            {{ end }}
+                            {{ end }}
+                            {{ if eq .type "Twitter" }}
+                            {{ if .url }}
+                            <a href="{{ .url }}" target="_blank"><i class="icon-twitter"></i></a>
+                            {{ end }}
+                            {{ end }}
+                            {{ if eq .type "Tumblr" }}
+                            {{ if .url }}
+                            <a href="{{ .url }}" target="_blank"><i class="icon-tumblr"></i></a>
+                            {{ end }}
+                            {{ end }}
+                            {{ if eq .type "GitHub" }}
+                            {{ if .url }}
+                            <a href="{{ .url }}" target="_blank"><i class="icon-github"></i></a>
+                            {{ end }}
+                            {{ end }}
+                            {{ if eq .type "Issuu" }}
+                            {{ if .url }}
+                            <a href="{{ .url }}" target="_blank">issuu</i></a>
+                            {{ end }}
+                            {{ end }}
+                            {{ if eq .type "Medium" }}
+                            {{ if .url }}
+                            <a href="{{ .url }}" target="_blank"><i class="icon-medium"></i></a>
+                            {{ end }}
+                            {{ end }}
+                            {{ end }}
+                          </p>
                         </div>
                     </div>
                 </div>
