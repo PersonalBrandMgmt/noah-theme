@@ -54,29 +54,45 @@
               {{ end }}
               <p class="colorlib-social-icons">
                 {{ range $.Site.Params.socials }}
-                {{ if eq .type "facebook" }}
+                {{ if eq .type "Facebook" }}
+                {{ if .url }}
                 <a href="{{ .url }}" target="_blank"><i class="icon-facebook4"></i></a>
                 {{ end }}
-                {{ if eq .type "linkedin" }}
+                {{ end }}
+                {{ if eq .type "LinkedIn" }}
+                {{ if .url }}
                 <a href="{{ .url }}" target="_blank"><i class="icon-linkedin4"></i></a>
                 {{ end }}
-                {{ if eq .type "instagram" }}
+                {{ end }}
+                {{ if eq .type "Instagram" }}
+                {{ if .url }}
                 <a href="{{ .url }}" target="_blank"><i class="icon-instagram"></i></a>
                 {{ end }}
-                {{ if eq .type "twitter" }}
+                {{ end }}
+                {{ if eq .type "Twitter" }}
+                {{ if .url }}
                 <a href="{{ .url }}" target="_blank"><i class="icon-twitter"></i></a>
                 {{ end }}
-                {{ if eq .type "tumblr" }}
+                {{ end }}
+                {{ if eq .type "Tumblr" }}
+                {{ if .url }}
                 <a href="{{ .url }}" target="_blank"><i class="icon-tumblr"></i></a>
                 {{ end }}
-                {{ if eq .type "github" }}
+                {{ end }}
+                {{ if eq .type "GitHub" }}
+                {{ if .url }}
                 <a href="{{ .url }}" target="_blank"><i class="icon-github"></i></a>
                 {{ end }}
-                {{ if eq .type "issuu" }}
+                {{ end }}
+                {{ if eq .type "Issuu" }}
+                {{ if .url }}
                 <a href="{{ .url }}" target="_blank">issuu</i></a>
                 {{ end }}
-                {{ if eq .type "medium" }}
+                {{ end }}
+                {{ if eq .type "Medium" }}
+                {{ if .url }}
                 <a href="{{ .url }}" target="_blank"><i class="icon-medium"></i></a>
+                {{ end }}
                 {{ end }}
                 {{ end }}
               </p>
@@ -195,14 +211,27 @@
                 {{ end }}
               </div>
             </div>
-            {{ range $.Site.Params.assets }}
-            {{ if eq .type "secondary" }}
-            <img id="secondaryImage" class="one-forth" src="" alt="{{ .metadata }}">
-            <script type="text/javascript">
-              MYLIBRARY.getCdnUrl("secondaryImage", "{{ .url }}")
-            </script>
-            {{ end }}
-            {{ end }}
+              <div class="col-md-5 animate-box">
+                <div>
+                  <div class="item">
+                    {{ range $.Site.Params.assets }}
+                    {{ if eq .type "secondary" }}
+                    <img id="secondaryImage" class="img-responsive about-img" src="{{ .url }}" alt="{{ .metadata }}">
+                    <script type="text/javascript">
+                      MYLIBRARY.getCdnUrl("secondaryImage", "{{ .url }}")
+                    </script>
+                    {{ end }}
+                    {{ end }}
+                  </div>
+                </div>
+<!--            {{ range $.Site.Params.assets }}-->
+<!--            {{ if eq .type "secondary" }}-->
+<!--            <img id="secondaryImage" class="img-responsive one-forth " src="" alt="{{ .metadata }}">-->
+<!--            <script type="text/javascript">-->
+<!--              MYLIBRARY.getCdnUrl("secondaryImage", "{{ .url }}")-->
+<!--            </script>-->
+<!--            {{ end }}-->
+<!--            {{ end }}-->
           </div>
         </div>
       </div>
