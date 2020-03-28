@@ -97,8 +97,10 @@
                 {{ end }}
               </p>
               <p>
-                <a id="resume-scroll" class="btn btn-primary btn-outline">Resume</a>
-                <a id="experience-scroll" class="btn btn-primary btn-outline">Experience</a>
+                <a id="resume-scroll" class="btn btn-primary btn-outline">Experience</a>
+                {{ if $.Site.Params.posts }}
+                <a id="experience-scroll" class="btn btn-primary btn-outline">Articles</a>
+                {{ end }}
                 <a id="contact-scroll" class="btn btn-primary btn-outline">Contact</a>
               </p>
             </div>
@@ -110,7 +112,7 @@
   <div id="colorlib-services">
     <div class="container">
       <div class="row text-center">
-        <h2 class="bold">Resume</h2>
+        <h2 class="bold">Experience</h2>
       </div>
       <div class="row">
         <div class="col-md-12">
@@ -137,7 +139,12 @@
                     <h3>Professional</h3>
                     <ul>
                       {{ range $.Site.Params.experience }}
-                      <li>{{ .position }} ('{{ substr .start_date 2 -3 }}-'{{ substr .end_date 2 -3 }}),
+                      <li>{{ .position }} ('{{ substr .start_date 2 -3 }}-
+                        {{ if eq .end_date "Present" }}
+                          Pr.),
+                        {{ else }}
+                          '{{ substr .end_date 2 -3 }}),
+                        {{ end }}
                         <a href="{{ .link }}" target="_blank">{{ .company }}</a></li>
                       {{ end }}
                     </ul>
@@ -160,7 +167,12 @@
                     <h3>Leadership</h3>
                     <ul>
                       {{ range $.Site.Params.leadership }}
-                      <li>{{ .position }} ('{{ substr .start_date 2 -3 }}-'{{ substr .end_date 2 -3 }}),
+                      <li>{{ .position }} ('{{ substr .start_date 2 -3 }}-
+                        {{ if eq .end_date "Present" }}
+                        Pr.),
+                        {{ else }}
+                        '{{ substr .end_date 2 -3 }}),
+                        {{ end }}
                         <a href="{{ .link }}" target="_blank">{{ .organization }}</a>
                       </li>
                       {{end}}
@@ -224,14 +236,6 @@
                     {{ end }}
                   </div>
                 </div>
-<!--            {{ range $.Site.Params.assets }}-->
-<!--            {{ if eq .type "secondary" }}-->
-<!--            <img id="secondaryImage" class="img-responsive one-forth " src="" alt="{{ .metadata }}">-->
-<!--            <script type="text/javascript">-->
-<!--              MYLIBRARY.getCdnUrl("secondaryImage", "{{ .url }}")-->
-<!--            </script>-->
-<!--            {{ end }}-->
-<!--            {{ end }}-->
           </div>
         </div>
       </div>
@@ -239,7 +243,9 @@
   </div>
 </div>
 
-{{ partial "articles.html" . }}
+{{ if $.Site.Params.posts }}
+  {{ partial "articles.html" . }}
+{{ end }}
 
 {{ if $.Site.Params.references }}
 <div id="colorlib-testimony">
