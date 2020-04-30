@@ -6,49 +6,31 @@
     "last_name": "Derfus",
     "middleInitial": "CY",
     "lastInitial": "PG",
-    "email": "kieranderfus@gmail.com",
+    "email": "kderfus@gmail.com",
     "site_metadata": [
       {
-        "id": "2855daca-3010-477d-add9-fdb69d0fa037",
-        "development_url": "https://develop.d2w8evk62x0ba4.amplifyapp.com",
-        "production_url": "https://master.d2w8evk62x0ba4.amplifyapp.com",
+        "id": "c436e016-7f5c-43a9-842b-5abc98ea647e",
+        "development_url": "https://develop.d2hkjn38d1o54x.amplifyapp.com",
+        "production_url": "https://master.d2hkjn38d1o54x.amplifyapp.com",
         "theme": "noah",
-        "appId": "d2w8evk62x0ba4",
-        "repoUrl": "https://github.com/PersonalBrandMgmt/14ff478f-5819-4f8b-afa4-7ffded9466eb"
+        "appId": "d2hkjn38d1o54x",
+        "repoUrl": "https://github.com/PersonalBrandMgmt/98aba832-d181-47b9-9f75-7f5e44e8ebb1"
       }
     ],
     "assets": [
       {
-        "type": "secondary",
-        "url": "96ce2c5e-069c-4546-a16a-d521584741c4",
-        "id": "8bb8c6e3-878a-4474-9bf9-668fc280ab2d"
-      },
-      {
-        "type": "resume",
-        "url": "739582ad-ce77-4124-93ca-a8e2191535cf",
-        "id": "e8e256b4-1062-4e0b-b37b-37d69332da04"
-      },
-      {
         "type": "primary",
-        "url": "f88d52ab-c993-4c88-9100-1a3e1afef3b2",
-        "id": "61ff079a-8708-403f-ae77-87fb8e9658fb"
+        "url": "66403658-5eca-456a-8eaa-a97af2c6fcf2",
+        "id": "52851819-7bb1-4bf2-962b-0f8325c630bf"
       }
     ],
     "coursework": [
       {
-        "id": "7a297819-3ffb-413b-bf20-eb72bdb1a2ba",
-        "course_name": "Discrete Math"
-      },
-      {
-        "id": "d29cbac1-36fd-4bdf-822f-aaa9f073a0ce",
+        "id": "f0b5a7eb-4530-4b0c-9116-222494c14ed3",
         "course_name": "Linear Algebra"
       },
       {
-        "id": "01f0f011-fb50-4cd0-a61f-554c9100b6ca",
-        "course_name": "Microeconomics"
-      },
-      {
-        "id": "870c43b7-68fe-4997-971f-9e44c242d189",
+        "id": "03059b14-8e0e-4c56-8af5-2f348e3bf88d",
         "course_name": "Macroeconomics"
       }
     ],
@@ -57,52 +39,33 @@
         "position": "President",
         "organization": "Plead the Fifth",
         "link": "https://pleadthefifthwfu.com",
-        "id": "f7552dd8-b95b-40f6-bfec-e32f5ba8d44f",
-        "start_date": "2020-01",
-        "end_date": "2020-09"
+        "id": "c2428bd4-e4b6-4bbf-8a4e-c4add2dd2665",
+        "start_date": "2016-02",
+        "end_date": "Present"
       }
     ],
-    "references": [
-      {
-        "id": "fbb3cec0-735b-4515-86bb-af1b4fcb6bf3",
-        "content": "Kieran has been a great addition to the team.",
-        "author_name": "Fazir Manthodi",
-        "author_company": "EY",
-        "author_position": "Managing Director"
-      },
-      {
-        "id": "53d91679-f5d8-4046-a016-6aaa27be6916",
-        "content": "I've been, out on the ocean ...",
-        "author_name": "Andrew McGuirk",
-        "author_company": "T. Rowe Price",
-        "author_position": "Analyst"
-      }
-    ],
+    "references": [],
     "skills": [
       {
+        "content": "JavaScript",
+        "id": "dc984b7d-faeb-400e-8666-8e4df459a3c8"
+      },
+      {
         "content": "Python",
-        "id": "d92dbd78-e591-4ff5-8746-62b64b348c06"
-      },
-      {
-        "content": "ReactJS",
-        "id": "ed337dc7-f936-4f1f-bc2d-ee8d36ffc300"
-      },
-      {
-        "content": "Cloud Architecture",
-        "id": "89ff488b-b4d8-4fad-80de-c9820aeb5876"
+        "id": "348a1008-adc1-443b-af77-b431d66f2591"
       },
       {
         "content": "Product Management",
-        "id": "4804129a-ab54-4ea4-b688-165bc4e9ebc4"
+        "id": "ddb16ab9-3202-48bb-8ab5-f7f998b1b298"
       }
     ],
     "education": [
       {
-        "id": "4cf1cc25-ea8a-48ba-90e9-8f690c3161b6",
+        "id": "e144b643-dee6-49c5-9229-b2b7e7b1b7c6",
         "degreeType": "Bachelor's Degree",
-        "degreeSubtype": "Bachelor of Arts (B.A.)",
-        "majorOne": "Economics",
-        "majorTwo": "Computer Science",
+        "degreeSubtype": "Bachelor of Science (B.S.)",
+        "majorOne": "Computer Science",
+        "majorTwo": "Economics",
         "minorOne": null,
         "minorTwo": null,
         "graduationDate": null
@@ -110,45 +73,36 @@
     ],
     "experience": [
       {
-        "position": "Technology Advisory",
-        "company": "Ernst & Young",
+        "position": "Senior Consultant",
+        "company": "EY",
         "link": "https://ey.com/consulting",
-        "start_date": "2020-01",
-        "end_date": "2020-06",
-        "id": "45bf73cf-7120-4605-bfc0-5dde84bfd947"
+        "start_date": "2018-10",
+        "end_date": "Present",
+        "id": "269ddf15-b822-4397-9c47-d6c3fff2ad90"
       }
     ],
-    "articles": [],
+    "articles": [
+      {
+        "title": "Motorola Razr vs. Samsung Galaxy Z Flip: The Flip Phone Is Back and It’s Not a Total Flop",
+        "caption": "Is the latest foldable phone trend a gimmick or a godsend? It could be a little of both.",
+        "url": "https://www.wsj.com/articles/motorola-razr-vs-samsung-galaxy-z-flip-the-flip-phone-is-back-and-its-not-a-total-flop-11581742810?mod=hp_lead_pos7",
+        "id": "b122967b-c174-4262-9555-d5802643fe9c"
+      }
+    ],
     "intro": [
       {
-        "content": "This for my sister, that for my maple. It's not going the road I'd known as a child of God. Nor to become stable.",
-        "account_id": "2855daca-3010-477d-add9-fdb69d0fa037",
-        "id": "fe0dc059-e8aa-4461-92fe-b650f4f13222"
+        "content": "Ever since I heard the howling wind ... I didn't need to go where a bible went.",
+        "account_id": "c436e016-7f5c-43a9-842b-5abc98ea647e",
+        "id": "e8363efc-10f5-48a3-8434-d68c8fa0397d"
       }
     ],
     "socials": [
       {
         "type": "Instagram",
         "url": "https://instagram.com/kieranderfus",
-        "id": "73ac96c1-596c-4329-94b4-7d69d82f27df"
-      },
-      {
-        "type": "Tumblr",
-        "url": "https://tumblr.com/kieranderfus",
-        "id": "5cfa5a96-c999-4a03-bc2e-b833bb97d77e"
+        "id": "8dcc33ae-de5d-4b4e-945b-79f0b549d1d2"
       }
     ],
-    "posts": [
-      {
-        "id": "8782891d-6828-491d-a3cc-d89fdbdbb2ad",
-        "title": "Without Fear",
-        "date_published": "2020-03-01T14:10:09",
-        "html": "<p>Because of her, because of her ...</p>\n",
-        "series": "posts",
-        "draft": "false",
-        "markdown": "Because of her, because of her ...\n",
-        "image_url": "36436d85-b178-4dc2-be5b-09ec846a87c7"
-      }
-    ]
+    "posts": []
   }
 }

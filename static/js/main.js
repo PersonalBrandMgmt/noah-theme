@@ -2,16 +2,6 @@
 
 	'use strict';
 
-
-  // var getCdnUrl = function (key) {
-  //   console.log(key);
-  //   const imageRequest = JSON.stringify({
-  //     bucket: 'cf-simple-s3-origin-cloudfrontfors3-273116933489',
-  //     key,
-  //   });
-  //   document.getElementById('primaryImage').src = `https://d1kk667yopfgms.cloudfront.net/${btoa(imageRequest)}`
-  // };
-
 	// iPad and iPod detection
 	var isiPad = function(){
 		return (navigator.platform.indexOf("iPad") != -1);
@@ -200,7 +190,6 @@
 		contentWayPoint();
 		owlCarouselFeatureSlide();
 		scrollTo();
-		// getCdnUrl("a924d27f-3434-41b1-943d-9cb720f396a6");
 	});
 
 }());

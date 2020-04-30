@@ -20,7 +20,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/favicon" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -61,7 +61,11 @@
       <workItem from="1583013780252" duration="3149000" />
       <workItem from="1583023182337" duration="7207000" />
       <workItem from="1584207629603" duration="2327000" />
-      <workItem from="1585417802928" duration="680000" />
+      <workItem from="1585417802928" duration="1357000" />
+      <workItem from="1585422508144" duration="94000" />
+      <workItem from="1585425282683" duration="8803000" />
+      <workItem from="1586042038717" duration="415000" />
+      <workItem from="1587082811637" duration="352000" />
     </task>
     <servers />
   </component>
@@ -69,6 +73,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="288" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585419039349">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state x="288" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.972@0.23.1680.972" timestamp="1585419039349" />
     <state x="454" y="250" width="680" height="518" key="find.popup" timestamp="1583199573816">
       <screen x="0" y="23" width="1680" height="972" />
     </state>
